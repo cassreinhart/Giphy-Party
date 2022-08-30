@@ -1,0 +1,53 @@
+body {
+    background-color:#19191c;
+}
+h1 {
+    margin: 0 0;
+    padding: 1rem;
+    background: rgb(28,28,28);
+    background: linear-gradient(0deg, rgba(28,28,28,1) 0%, rgba(77,76,76,1) 97%);
+    font-size: 2rem;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-weight: 80;
+    color: white;
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+button {
+    color: white;
+    width: 8rem;
+    padding: .75rem .5rem;
+    border-radius: 5px;
+    border: none;
+    margin: .2rem;
+}
+#search{
+    padding: .75rem .75rem;
+    border-radius: 5px;
+    border: none;
+}
+#submit{
+    background-color:#403f3e ;
+}
+#submit:hover{
+    background-color: #1c1c1b;
+}
+#remove {
+    background-color: #e85920;
+}
+#remove:hover {
+    background-color: #f5451d;
+}
+#gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    max-width: 300px;
+    max-height: 250px;
+    margin: .3rem;
+}
